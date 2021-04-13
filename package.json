@@ -18,7 +18,6 @@
     "url": "https://github.com/MarisaHanna/mini-project/issues"
   },
   "homepage": "https://github.com/MarisaHanna/mini-project#readme"
-  "homepage": "https://github.com/MarisaHanna/mini-project#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
