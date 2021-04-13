@@ -6,15 +6,7 @@ const port = 3000
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const customers = [
 
-    {
-       customerID: '' ,
-       customerName:'',
-       customerEmail: '',
-       customerPhone: ''
-    }
-] 
 
 app.get ('/', (req, res) => {
     res.send('Hello World')
