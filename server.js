@@ -7,5 +7,17 @@ app.get ('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Listening at http://localhost:${port}')
+    console.log(`Listening at http://localhost:${port}`)
 })
+
+var data = {
+    reservations: [],
+    waitlist: [],
+};
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'home.html'))}
+    );
+
+app.get('/reserve', (req, res) => {res.sendFile(path.join(__dirname, 'reserve.html'))}
+);
