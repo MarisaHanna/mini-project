@@ -1,7 +1,7 @@
 {
   "name": "mini-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Let's Eat Restaurant Reservations",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/MarisaHanna/mini-project.git"
   },
-  "author": "",
+  "author": "Group",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MarisaHanna/mini-project/issues"
   },
-  "homepage": "https://github.com/MarisaHanna/mini-project#readme",
+  "homepage": "https://github.com/MarisaHanna/mini-project#readme"
   "dependencies": {
     "express": "^4.17.1"
   }
 }
+
