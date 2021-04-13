@@ -44,6 +44,14 @@ app.get ('/api/waitlist', (req, res) => {
     res.json(data.waitlist)
 });
 
+
+app.post ('/api/reservations', (res, req) =>{
+    res.send(data.reservations)
+});
+
+app.post ('/api/waitlist', (res, req) =>{
+    res.send(data.waitlist)
+});
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`)
 })
